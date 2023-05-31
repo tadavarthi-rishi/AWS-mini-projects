@@ -1,1 +1,7 @@
+now after running the APP2.py in terminal copy the flask server web address and paste in postman 
+with post method and upload a file in form data from body option and click on send button.
+we should get the output as file uploaded successfully.
+now login into your AWS account in which you gave the access key and secret access key and go to s3 bucket page in AWS console there
+we should see the newly created s3 bucket and a file which we uploaded in postman will reflect here.
 
+so by this program we have connected and created AWS s3 bucket programatically and uploaded a file into it through flask API.
